@@ -6,28 +6,4 @@ window.addEventListener('load', () => {
   gsap.from('.form-panel', { y: 40, opacity: 0, duration: 1, ease: 'power3.out', delay: 0.4 });
 });
 
-// function sendWhatsApp(event) {
-//   event.preventDefault();
-
-//   const name = document.getElementById('name').value.trim();
-//   const phone = document.getElementById('phone').value.trim();
-//   const service = document.getElementById('service').value;
-//   const message = document.getElementById('message').value.trim();
-
-//   if (!name || !phone || !service) {
-//     alert('Please enter your naam, mobile number, and select a requirement.');
-//     return;
-//   }
-
-//   if (!/^[0-9]{10}$/.test(phone)) {
-//     alert('Please enter a valid 10-digit mobile number.');
-//     return;
-//   }
-
-//   const text = encodeURIComponent(
-//     `Name: ${name}\nMobile: ${phone}\nRequirement: ${service}\nMessage: ${message}`
-//   );
-
-// //   const url = `https://wa.me/8001419293?text=${text}`;
-// //   window.open(url, '_blank');
-// }
+// Form submission handled by formsubmit.co
